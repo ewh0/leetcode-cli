@@ -236,6 +236,7 @@ Display question details. With `-g`/`-l`/`-x`, the code template would be auto g
     * java
     * javascript
     * mysql
+    * postgresql
     * php
     * python
     * python3

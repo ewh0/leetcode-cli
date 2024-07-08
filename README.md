@@ -6,6 +6,12 @@
 
 # leetcode-cli
 
+> [!NOTE]  
+> 07/07/2024 - I made the following modification to this cli:
+> - Support postgresql as a new language id
+> - Use a customized home directory for this tool (i.e. `~/.lc-customized` instead of `~/.lc`) to avoid causing any overlap between my vscode leetcode extension and this tool
+> - When showing a problem, by default the problem will be saved at path ./{problem-id}-{dash-separated-problem-name}/{langId}/{dash-separated question-name}.{ext}
+
 > Note: This repository is forked from [leetcode-cli](https://github.com/skygragon/leetcode-cli) for temporary usage. 
 > Note: Copy cookie from webbrowser and Using **leetcode user -c** can temporary fix can't [login problem](https://github.com/jdneo/vscode-leetcode/issues/478).
 
